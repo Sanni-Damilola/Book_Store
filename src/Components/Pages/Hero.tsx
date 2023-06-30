@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="bg-bgi w-full h-[650px] pb-[10px] flex justify-start items-center bg-[#effafb]">
       <div className="ml-[90px] flex-col flex  w-[40%] justify-center pb-[10px]">
-        <h3 className="text-[75px] text-[#f34344] font-[600]">
+        <h3 className="mt-10 text-[75px] text-[#f34344] font-[600]">
           Knowledge is
           <h1 className="text-[#111111] ">Strength.</h1>
         </h3>
@@ -14,7 +14,7 @@ const Hero = () => {
           the majority have suffered alteration in some.
         </p>
         <div
-          className="mt-8  flex justify-center items-center w-[fit-content]  
+          className="mt-10  flex justify-center items-center w-[fit-content]  
         "
         >
           <button className="bg-[#111111] text-white hover:bg-[#f34344] duration-500 text-1xl cursor-pointer  rounded-full px-[45px] py-[19px] flex justify-center items-center  capitalize">
