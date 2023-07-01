@@ -19,9 +19,9 @@ const Chat = () => {
   };
 
   return (
-    <div>
+    <div className="pt-6">
       <h1 className="font-extrabold text-xl mb-10">Chat With Sanni</h1>
-      <div className="message-container">
+      <div className="message-containe mb-5">
         {messages.map((message: any, index: any) => (
           <div key={index} className="message">
             {message}

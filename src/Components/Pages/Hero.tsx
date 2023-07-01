@@ -28,8 +28,6 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      {/* <img src="" /> */}
-      {/* https://nokshi-2.myshopify.com/cdn/shop/files/home-1-slider-1.png?v=1614763716 */}
     </div>
   );
 };
