@@ -2,7 +2,7 @@ import logo from "../../Images/booken-logo_150x.avif";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-[999] w-full h-[120px] flex justify-center items-center">
+    <header className="sticky top-0 z-[999] bg-white  w-full h-[120px] flex justify-center items-center">
       <div className="w-full h-full flex justify-around items-center">
         <img src={logo} />
         <div className="font-{Work Sans} flex font-[400]  text-xl capitalize  text-[rgba(0,0,0,0.6)] justify-cente  items-center">
