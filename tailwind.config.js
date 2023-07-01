@@ -11,6 +11,8 @@ export default {
           local: "local",
           scroll: "scroll",
         },
+        bgDescription:
+          'url("https://nokshi-2.myshopify.com/cdn/shop/files/home-3-slide-2.png?v=1614846534")',
       },
     },
   },

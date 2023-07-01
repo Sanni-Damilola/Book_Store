@@ -1,5 +1,3 @@
-import React from "react";
-
 const Features = () => {
   const image: any = [
     "//nokshi-2.myshopify.com/cdn/shop/files/banner-1.png?v=1614763780",
