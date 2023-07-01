@@ -1,1 +1,1 @@
-export { default as Hero } from "./Hero";
+export { default as LandingPage } from "./LandingPage";

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { HomeScreen } from "../Layout";
-import { Hero } from "../Pages";
+import { LandingPage } from "../Pages";
 
 const Routes: any = createBrowserRouter([
   {
@@ -9,7 +9,7 @@ const Routes: any = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Hero />,
+        element: <LandingPage />,
       },
     ],
   },

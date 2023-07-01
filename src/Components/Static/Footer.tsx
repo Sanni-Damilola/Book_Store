@@ -28,9 +28,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full grid-cols-4 flex justify-center items-center h-[400px] pb-3  ">
-      {/* bg-[##f1f1f1] */}
-      <div className="grid  w-[90%] grid-cols-4  justify-center">
+    <footer className="w-full grid-cols-4 flex justify-center items-center   flex-wrap bg-[##f1f1f1] ">
+      <div className="grid w-[90%] grid-cols-4  justify-center ">
         <div className=" w-[400px]">
           <h4 className="mb-[30px] text-[20px] font-medium uppercase">
             about info
@@ -43,19 +42,23 @@ const Footer = () => {
             <div className="text-[23px] mr-3">
               <VscLocation />
             </div>
-            Addresss: 18, oguntimehin str, Nigeria
+            <a href="https://www.google.com/maps/place/18+Oguntimehin+St,+Apapa+102103,+Lagos/@6.44587,3.3460064,17z/data=!3m1!4b1!4m5!3m4!1s0x103b8bd1e608c749:0x9346be3b67a0265e!8m2!3d6.4458647!4d3.3485813?authuser=0&entry=ttu">
+              Addresss: 18, oguntimehin str, Nigeria
+            </a>
           </span>
           <span className="flex mb-[10px] items-center text-[18px]">
             <div className="text-[23px] flex  items-center mr-3">
               <MdOutlineMarkEmailRead />
             </div>
-            Email: sannfortune11@example.com
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+              Email: sannfortune11@example.com
+            </a>
           </span>
           <span className="flex  items-center text-[18px]">
             <div className="text-[23px] flex  items-center mr-3">
               <AiOutlinePhone />
             </div>
-            Phone: (+234) 8183389407
+            <a href="https://wa.me/2348183389407">Phone: (+234) 8183389407</a>
           </span>
         </div>
 
@@ -83,6 +86,16 @@ const Footer = () => {
             <li className={footerItems[1]?.style}>{item}</li>
           ))}
         </ul>
+      </div>
+      <div className="w-full text-white flex justify-center items-center h-16 bg-[#333333]">
+        Copyright
+        <a href="https://web.facebook.com/groups/brighterdayscodelab">
+          <b className="ml-2 mr-1">Codelab</b>
+        </a>
+        | by{" "}
+        <a href="https://www.linkedin.com/in/damilola-fortune-926295253/">
+          <strong className="ml-1 capitalize">sanni damilola fortune</strong>
+        </a>
       </div>
     </footer>
   );
