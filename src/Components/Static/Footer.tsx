@@ -3,28 +3,35 @@ import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { AiOutlinePhone } from "react-icons/ai";
 
 const Footer = () => {
-  const footerItems = [
-    "sign in",
-    "View Cart",
-    "Track My Order",
-    "Help",
-    "Home",
-    "About Us",
-    "Shop",
-    "Blog",
-    "Contact Us",
-    "Hello & Contact",
-    "Shipping & Tax",
-    "Return Policy",
-    "Affiliates",
-    "Legal Notice",
+  const footerItems: any = [
+    [
+      "sign in",
+      "View Cart",
+      "My Wishlist",
+      "Track My Order",
+      "Help",
+      "Home",
+      "About Us",
+      "Shop",
+      "Blog",
+      "Contact Us",
+      "Hello & Contact",
+      "Shipping & Tax",
+      "Return Policy",
+      "Affiliates",
+      "Legal Notice",
+    ],
+    {
+      style:
+        "cursor-pointer hover:text-[#f34344] mb-5 w-[fit-content] font-{Work Sans} flex font-[400]  text-lg capitalize  text-[rgba(0,0,0,0.6)]",
+    },
   ];
 
   return (
     <footer className="w-full grid-cols-4 flex justify-center items-center h-[400px] pb-3  ">
       {/* bg-[##f1f1f1] */}
       <div className="grid  w-[90%] grid-cols-4  justify-center">
-        <div className="bg-red-600 ">
+        <div className=" w-[400px]">
           <h4 className="mb-[30px] text-[20px] font-medium uppercase">
             about info
           </h4>
@@ -52,28 +59,28 @@ const Footer = () => {
           </span>
         </div>
 
-        <ul className=" ml-80 w-[fit-content]">
+        <ul className=" ml-80 w-[fit-content] ">
           <h4 className="mb-[30px] text-[20px] font-medium uppercase">
             INFORMATION
           </h4>
-          {footerItems.slice(0, 4).map((item, index) => (
-            <li key={index}>{item}</li>
+          {footerItems[0]?.slice(0, 5).map((item: string) => (
+            <li className={footerItems[1]?.style}>{item}</li>
           ))}
         </ul>
         <ul className=" ml-44 w-[fit-content]">
           <h4 className="mb-[30px] text-[20px] font-medium uppercase">
-            INFORMATION
+            INFO LINKS
           </h4>
-          {footerItems.slice(4, 9).map((item, index) => (
-            <li key={index}>{item}</li>
+          {footerItems[0]?.slice(5, 10).map((item: string) => (
+            <li className={footerItems[1]?.style}>{item}</li>
           ))}
         </ul>
         <ul className=" ml-11 w-[fit-content]">
           <h4 className="mb-[30px] text-[20px] font-medium uppercase">
-            INFORMATION
+            SUPPORT AREA
           </h4>
-          {footerItems.slice(9, 14).map((item, index) => (
-            <li key={index}>{item}</li>
+          {footerItems[0]?.slice(10, 15).map((item: string) => (
+            <li className={footerItems[1]?.style}>{item}</li>
           ))}
         </ul>
       </div>
