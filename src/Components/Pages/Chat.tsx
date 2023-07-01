@@ -20,7 +20,7 @@ const Chat = () => {
 
   return (
     <div>
-      <h1>Chat</h1>
+      <h1 className="font-extrabold text-xl mb-10">Chat With Sanni</h1>
       <div className="message-container">
         {messages.map((message: any, index: any) => (
           <div key={index} className="message">
@@ -30,12 +30,15 @@ const Chat = () => {
       </div>
       <form onSubmit={handleFormSubmit}>
         <input
+          className="w-[90%] h-[50px] pl-[10px] text-black"
           type="text"
           value={newMessage}
           onChange={handleInputChange}
           placeholder="Type your message..."
         />
-        <button type="submit">Send</button>
+        <button className="ml-2" type="submit">
+          Send
+        </button>
       </form>
     </div>
   );
