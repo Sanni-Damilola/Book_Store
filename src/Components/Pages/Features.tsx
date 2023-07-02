@@ -7,9 +7,9 @@ const Features = () => {
 
   return (
     <div className="flex justify-center items-center flex-col  p-16">
-      <div className="flex justify-center items-center mb-8">
+      <div className="flex-wrap flex justify-center items-center mb-8">
         {image.map((value: string) => (
-          <img src={value} className="w-[350px] object-cover m-10 h-[200px]" />
+          <img src={value} className="md:w-[350px] object-cover m-7 md:h-[200px]" />
         ))}
       </div>
       <strong className="text-5xl mb-5 text-[rgb(0,0,0,0.8)]">

@@ -11,8 +11,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-[999] bg-white  w-full h-[120px] flex justify-center items-center">
       <div className="w-full h-full flex justify-around items-center">
-        <img src={logo} />
-        <div className="font-{Work Sans} flex font-[400]  text-xl capitalize  text-[rgba(0,0,0,0.6)] justify-cente  items-center">
+        <img className="h-6 sm:" src={logo} />
+        <div className="hidden md:flex font-{Work Sans}  font-[400]  text-xl capitalize  text-[rgba(0,0,0,0.6)] justify-cente  items-center">
           <nav className="mr-16 cursor-pointer hover:text-[#f34344]">home</nav>
           <nav className="mr-16 cursor-pointer hover:text-[#f34344]">
             about us
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <button
           onClick={fnShow}
-          className="py-[10px] px-[20px] font-medium text-lg capitalize text-white rounded-md cursor-pointer hover:bg-[#111111]  duration-500 bg-[rgb(255,97,98)]"
+          className="py-[8px] sm:py-[10px] px-[10px] sm:px-[20px] font-medium text-base sm:text-lg capitalize text-white rounded-md cursor-pointer hover:bg-[#111111]  duration-500 bg-[rgb(255,97,98)]"
         >
           purchase
         </button>
