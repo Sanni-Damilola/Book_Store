@@ -30,11 +30,11 @@ const Header = () => {
           purchase
         </button>
       </div>
-      {/* {show ? (
+      {show ? (
         <div className="absolute  top-[121px] left-0 w-[500px] h-[100vh] bg-black z-10 text-white">
           <Chat />
         </div>
-      ) : null} */}
+      ) : null}
     </header>
   );
 };
