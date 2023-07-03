@@ -69,12 +69,12 @@ body {
   /* other body styles */
 }
 
-/* Scrollbar styles */
-body::-webkit-scrollbar {
+  /* Scrollbar styles */
+body::-webkit-scrollbar { 
   width: 10px;
   /* Width of the scrollbar */
   background-color: black;
-  /* Background color of the scrollbar */
+  /* Background Color of the scrollbar */
 }
 
 body::-webkit-scrollbar-thumb {
