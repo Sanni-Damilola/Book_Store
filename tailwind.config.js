@@ -15,6 +15,13 @@ export default {
         },
         bgDescription:
           'url("https://nokshi-2.myshopify.com/cdn/shop/files/home-3-slide-2.png?v=1614846534")',
+        screens: {
+          sm: "640px",
+          md: "800px",
+          lg: "1024px",
+          xl: "1280px",
+          // Add more custom breakpoints if needed
+        },
       },
     },
   },
