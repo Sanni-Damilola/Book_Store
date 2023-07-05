@@ -1,12 +1,12 @@
 const Description = () => {
   return (
     <div className="h-[550px] mb-20 bg-bgDescription bg-no-repeat relative bg-cover  flex justify-around items-center">
-      <div className="text-[rgb(34,34,34)] z-10">
+      <div className="text-[rgba(236,228,228,0.9)] z-10">
         <h3 className="mt-10 text-[50px] text-[#f34344] font-[600]">
           What We Are.
         </h3>
         <div className="w-20 h-1.5 bg-[#f34344] mb-8"></div>
-        <span className="font-semibold text-[rgb(0,0,0,0.9)] text-xl">
+        <span className="font-semibold text-[rgba(236,228,228,0.9)] text-xl">
           Booken provide how all this Lorem Ipsum is simply dummy
         </span>
         <p className="mt-5 font-medium text-lg">
@@ -23,11 +23,11 @@ const Description = () => {
           recently with desktop publishing.
         </p>
       </div>
-      <div className="text-[rgb(34,34,34)] z-10">
-        <h3 className=" text-[38px] text-[rgb(0,0,0,0.9)] font-[500]">
+      <div className="text-[rgba(236,228,228,0.9)] z-10">
+        <h3 className=" text-[38px] text-[rgba(236,228,228,0.9)] font-[500]">
           What <strong className="text-[#f34344]">Clients</strong> Says
         </h3>
-        <span className="font-medium text-[rgb(0,0,0,0.9)] text-lg">
+        <span className="font-medium text-[rgba(236,228,228,0.9)] text-lg">
           Contrary to popular belief Lorem Ipsum.
         </span>
         <p className="mt-5">
@@ -45,7 +45,7 @@ const Description = () => {
           reprehenderit.
         </p>
       </div>
-      <div className="absolute top-0 w-full h-full bg-[#e8e1e369]"></div>
+      <div className="absolute top-0 w-full h-full bg-[rgba(0,0,0,0.3)]"></div>
     </div>
   );
 };
