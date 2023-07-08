@@ -1,7 +1,7 @@
 const Description = () => {
   return (
     <div className="h-[550px] mb-20 bg-bgDescription bg-no-repeat relative bg-cover  flex justify-around items-center">
-      <div className="text-[rgba(236,228,228,0.9)] ml-12 z-10">
+      <div className="text-[rgba(236,228,228,0.9)] ml-5 z-10 ">
         <h3 className="mt-10 text-[50px] text-[#f34344] font-[600]">
           What We Are.
         </h3>
@@ -23,7 +23,7 @@ const Description = () => {
           recently with desktop publishing.
         </p>
       </div>
-      <div className="text-[rgba(236,228,228,0.9)]  z-10">
+      <div className="text-[rgba(236,228,228,0.9)] w-[640px] bg-red z-10">
         <h3 className=" text-[38px] text-[rgba(236,228,228,0.9)] font-[500]">
           What <strong className="text-[#f34344]">Clients</strong> Says
         </h3>
@@ -32,10 +32,10 @@ const Description = () => {
         </span>
         <p className="mt-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua. Ut br
-          enim ad minim veniam, quis nostrud exercitation ullamco <br /> laboris
-          nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in
-          reprehenderit.
+          eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua. Ut
+          br enim ad minim veniam, quis nostrud exercitation ullamco <br />{" "}
+          laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor
+          in reprehenderit.
         </p>
         <p className="mt-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
