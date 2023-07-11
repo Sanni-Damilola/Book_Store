@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import { HomeScreen } from "../Layout";
 import { LandingPage } from "../Pages";
+import { lazy } from "react";
+
+const HomeScreen = lazy(() => import("../Layout/HomeScreen"));
 
 const Routes: any = createBrowserRouter([
   {

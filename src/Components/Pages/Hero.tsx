@@ -2,7 +2,7 @@ import { BsCartPlusFill, BsPlayFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="bg-bgi bg-fixed w-full h-[650px] pb-[10px] flex justify-start items-center bg-[#effafb]">
+    <div className="bg-bgi bg-fixed w-full h-[450px] pb-[10px] flex justify-start items-center bg-[#effafb]">
       <div className="ml-[90px]  flex-col flex  w-[40%] justify-center pb-[10px]">
         <h3 className="text-[30px] mt-10 md:text-[75px] text-[#f34344] font-[600]">
           Knowledge is
