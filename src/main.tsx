@@ -14,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       }
     >
       <App />
+      {/* lazy loading */}
     </Suspense>
   </React.StrictMode>
 );
