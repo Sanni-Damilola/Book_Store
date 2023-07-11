@@ -2,3 +2,4 @@ git branch -m master main
 git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
+ https://static.npmjs.com/attachments/ck3uwf52nmst29y749vru59k3-icon-pro-wombat-2x.png
