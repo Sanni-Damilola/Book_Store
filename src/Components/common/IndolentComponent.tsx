@@ -9,6 +9,6 @@ const IndolentComponent = () => {
   );
 };
 
+// https://static.npmjs.com/attachments/ck3uwf52nmst29y749vru59k3-icon-pro-wombat-2x.png
 export default IndolentComponent;
 
-// https://static.npmjs.com/attachments/ck3uwf52nmst29y749vru59k3-icon-pro-wombat-2x.png
