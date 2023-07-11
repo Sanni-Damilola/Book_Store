@@ -1,4 +1,4 @@
-import {Routes } from "./Components";
+import { Routes } from "./Components";
 import { RouterProvider } from "react-router-dom";
 
 function App() {
@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+// routes
 
 export default App;
